@@ -43,6 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/mint/proprietary/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/samsung/mint/proprietary/bin/calibration_init:system/bin/calibration_init \
+    vendor/samsung/mint/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/samsung/mint/proprietary/etc/devicevolume.xml:system/etc/devicevolume.xml \
+    vendor/samsung/mint/proprietary/etc/formatvolume.xml:system/etc/formatvolume.xml \
+    vendor/samsung/mint/proprietary/etc/default_gain.conf:system/etc/default_gain.conf \
+    vendor/samsung/mint/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
     vendor/samsung/mint/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/mint/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/mint/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
