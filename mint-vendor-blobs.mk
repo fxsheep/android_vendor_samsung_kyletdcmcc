@@ -62,8 +62,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/lib/hw/sensors.sc8810.so:system/lib/hw/sensors.sc8810.so \
     vendor/samsung/mint/proprietary/lib/hw/gralloc.sc8810.so:system/lib/hw/gralloc.sc8810.so \
     vendor/samsung/mint/proprietary/lib/hw/hwcomposer.sc8810.so:system/lib/hw/hwcomposer.sc8810.so \
-    vendor/samsung/mint/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
-    vendor/samsung/mint/proprietary/lib/libboost.so:system/lib/libboost.so \
+    vendor/samsung/mint/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
+    vendor/samsung/mint/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/samsung/mint/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
+    vendor/samsung/mint/proprietary/lib/libMali.so:system/lib/libMali.so \
+    vendor/samsung/mint/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/mint/proprietary/lib/hw/audio.primary.sc8810.so:system/lib/hw/audio.primary.sc8810.so \
     vendor/samsung/mint/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
