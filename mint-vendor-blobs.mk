@@ -103,4 +103,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/mint/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/mint/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/mint/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so
+    vendor/samsung/mint/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/mint/proprietary/bin/bcm_dut:system/bin/bcm_dut \
+    vendor/samsung/mint/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    vendor/samsung/mint/proprietary/bin/brcm_poke_helper:system/bin/brcm_poke_helper \
+    vendor/samsung/mint/proprietary/bin/btld:system/bin/btld \
+    vendor/samsung/mint/proprietary/bin/hciattach:system/bin/hciattach
