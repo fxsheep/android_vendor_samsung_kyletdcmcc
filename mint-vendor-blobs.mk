@@ -134,4 +134,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/samsung/mint/proprietary/bin/brcm_poke_helper:system/bin/brcm_poke_helper \
     vendor/samsung/mint/proprietary/bin/btld:system/bin/btld \
-    vendor/samsung/mint/proprietary/bin/hciattach:system/bin/hciattach
+    vendor/samsung/mint/proprietary/bin/hciattach:system/bin/hciattach \
+    vendor/samsung/mint/proprietary/app/Camera2.apk:system/app/Camera2.apk
