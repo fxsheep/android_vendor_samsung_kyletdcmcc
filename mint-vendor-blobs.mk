@@ -96,6 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/mint/proprietary/lib/hw/audio.primary.sc8810.so:system/lib/hw/audio.primary.sc8810.so \
+    vendor/samsung/mint/proprietary/lib/hw/audio_policy.sc8810.so:system/lib/hw/audio_policy.sc8810.so \
+    vendor/samsung/mint/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
     vendor/samsung/mint/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/mint/proprietary/lib/libLifevibes_lvvefs.so:system/lib/libLifevibes_lvvefs.so \
     vendor/samsung/mint/proprietary/lib/liblvvewrapper.so:system/lib/liblvvewrapper.so \
