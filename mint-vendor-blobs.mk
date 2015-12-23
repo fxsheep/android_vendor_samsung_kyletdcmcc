@@ -19,7 +19,6 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/mint/proprietary/bin/bluetoothd:system/bin/bluetoothd \
-    vendor/samsung/mint/proprietary/bin/calibration_init:system/bin/calibration_init \
     vendor/samsung/mint/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint/proprietary/bin/engmodemclient:system/bin/engmodemclient \
     vendor/samsung/mint/proprietary/bin/engpcclient:system/bin/engpcclient \
