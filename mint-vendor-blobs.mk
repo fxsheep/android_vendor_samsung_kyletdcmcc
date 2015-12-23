@@ -84,8 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/samsung/mint/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
     vendor/samsung/mint/proprietary/bin/ss_daemon:system/bin/ss_daemon \
-    vendor/samsung/mint/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/samsung/mint/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/samsung/mint/proprietary/lib/hw/sensors.sc8810.so:system/lib/hw/sensors.sc8810.so \
     vendor/samsung/mint/proprietary/lib/hw/gralloc.sc8810.so:system/lib/hw/gralloc.sc8810.so \
     vendor/samsung/mint/proprietary/lib/hw/hwcomposer.sc8810.so:system/lib/hw/hwcomposer.sc8810.so \
