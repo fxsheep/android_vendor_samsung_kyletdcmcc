@@ -153,7 +153,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     vendor/samsung/mint2g/proprietary/lib/libchip_state.so:system/lib/libchip_state.so \
     vendor/samsung/mint2g/proprietary/lib/libsamsung_psi.so:system/lib/libsamsung_psi.so \
-    vendor/samsung/mint2g/proprietary/lib/libnetlink.so:system/lib/libnetlink.so
+    vendor/samsung/mint2g/proprietary/lib/libnetlink.so:system/lib/libnetlink.so \
+    vendor/samsung/mint/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/mint/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     
     
     
