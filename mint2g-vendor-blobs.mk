@@ -17,15 +17,10 @@
  
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/mint2g/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/mint2g/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/mint2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
-    vendor/samsung/mint2g/proprietary/bin/engmodemclient:system/bin/engmodemclient \
-    vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
-    vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
-    vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddr \
     vendor/samsung/mint2g/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/mint2g/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/mint2g/proprietary/bin/modemd:system/bin/modemd \
@@ -34,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/slog:system/bin/slog \
     vendor/samsung/mint2g/proprietary/bin/slogctl:system/bin/slogctl \
     vendor/samsung/mint2g/proprietary/bin/sprd_monitor:system/bin/sprd_monitor \
-    vendor/samsung/mint2g/proprietary/bin/tar:system/bin/tar \
     vendor/samsung/mint2g/proprietary/bin/rild_sp:system/bin/rild_sp \
     vendor/samsung/mint2g/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/mint2g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -127,13 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libnvaccessor.so:system/lib/libnvaccessor.so \
     vendor/samsung/mint2g/proprietary/lib/hw/camera.sc8810.so:system/lib/hw/camera.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/mint2g/proprietary/lib/libsec_cryptomnt.so:system/lib/libsec_cryptomnt.so \
-    vendor/samsung/mint2g/proprietary/lib/libsec_devenc.so:system/lib/libsec_devenc.so \
-    vendor/samsung/mint2g/proprietary/lib/libsec_ecryptfs.so:system/lib/libsec_ecryptfs.so \
-    vendor/samsung/mint2g/proprietary/lib/libsecface.so:system/lib/libsecface.so \
-    vendor/samsung/mint2g/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
-    vendor/samsung/mint2g/proprietary/lib/libsec_km.so:system/lib/libsec_km.so \
-    vendor/samsung/mint2g/proprietary/lib/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so \
     vendor/samsung/mint2g/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
     vendor/samsung/mint2g/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
@@ -145,17 +132,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
     vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/mint2g/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
     vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
-    vendor/samsung/mint2g/proprietary/bin/npsmobex:system/bin/npsmobex \
-    vendor/samsung/mint2g/proprietary/bin/smdexe:system/bin/smdexe \
-    vendor/samsung/mint2g/proprietary/bin/pand:system/bin/pand \
-    vendor/samsung/mint2g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-    vendor/samsung/mint2g/proprietary/lib/libchip_state.so:system/lib/libchip_state.so \
-    vendor/samsung/mint2g/proprietary/lib/libsamsung_psi.so:system/lib/libsamsung_psi.so \
-    vendor/samsung/mint2g/proprietary/lib/libnetlink.so:system/lib/libnetlink.so \
-    vendor/samsung/mint/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/samsung/mint/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/samsung/mint2g/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/mint2g/proprietary/lib/libnetlink.so:system/lib/libnetlink.so
     
     
     
