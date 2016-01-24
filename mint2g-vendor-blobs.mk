@@ -17,6 +17,11 @@
  
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/mint2g/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/mint2g/proprietary/bin/engmodemclient:system/bin/engmodemclient \
+    vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
+    vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
+    vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddress \
     vendor/samsung/mint2g/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
@@ -89,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/hw/sensors.sc8810.so:system/lib/hw/sensors.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/gralloc.sc8810.so:system/lib/hw/gralloc.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/hwcomposer.sc8810.so:system/lib/hw/hwcomposer.sc8810.so \
-    vendor/samsung/mint2g/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
+    vendor/samsung/mint2g/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/mint2g/proprietary/lib/libMali.so:system/lib/libMali.so \
@@ -109,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \
     vendor/samsung/mint2g/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
     vendor/samsung/mint2g/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
+    vendor/samsung/mint2g/proprietary/lib/libbinder.so:system/lib/libbinder.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
@@ -132,9 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
     vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
-    vendor/samsung/mint2g/proprietary/bin/hostapd:system/bin/hostapd \
-    vendor/samsung/mint2g/proprietary/lib/libnetlink.so:system/lib/libnetlink.so
+    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey
     
     
     
