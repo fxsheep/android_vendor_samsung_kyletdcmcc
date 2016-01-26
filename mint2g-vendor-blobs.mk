@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \
     vendor/samsung/mint2g/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
     vendor/samsung/mint2g/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
-    vendor/samsung/mint2g/proprietary/lib/libbinder.so:system/lib/libbinder.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
@@ -138,7 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
     vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey
+    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
     
     
     
