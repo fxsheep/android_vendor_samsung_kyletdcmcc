@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/hw/sensors.sc8810.so:system/lib/hw/sensors.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/gralloc.sc8810.so:system/lib/hw/gralloc.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/hwcomposer.sc8810.so:system/lib/hw/hwcomposer.sc8810.so \
-    vendor/samsung/mint2g/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/samsung/mint2g/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/mint2g/proprietary/lib/libMali.so:system/lib/libMali.so \
