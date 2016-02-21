@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
     vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
     vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddress \
-    vendor/samsung/mint2g/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/mint2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
@@ -91,14 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
     vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
     vendor/samsung/mint2g/proprietary/bin/ss_daemon:system/bin/ss_daemon \
-    vendor/samsung/mint2g/proprietary/lib/hw/sensors.sc8810.so:system/lib/hw/sensors.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/gralloc.sc8810.so:system/lib/hw/gralloc.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/hw/hwcomposer.sc8810.so:system/lib/hw/hwcomposer.sc8810.so \
-    vendor/samsung/mint2g/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/samsung/mint2g/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
-    vendor/samsung/mint2g/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/samsung/mint2g/proprietary/lib/libMali.so:system/lib/libMali.so \
-    vendor/samsung/mint2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint2g/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/mint2g/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/mint2g/proprietary/lib/libLifevibes_lvvefs.so:system/lib/libLifevibes_lvvefs.so \
@@ -132,15 +125,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/mint2g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/mint2g/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/mint2g/proprietary/bin/bcm_dut:system/bin/bcm_dut \
-    vendor/samsung/mint2g/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/samsung/mint2g/proprietary/bin/brcm_poke_helper:system/bin/brcm_poke_helper \
-    vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
-    vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
-    vendor/samsung/mint2g/proprietary/framework/webviewchromium.jar:system/framework/webviewchromium.jar \
-    vendor/samsung/mint2g/proprietary/lib/libwebviewchromium.so:system/lib/libwebviewchromium.so \
     vendor/samsung/mint2g/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/mint2g/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
     vendor/samsung/mint2g/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
