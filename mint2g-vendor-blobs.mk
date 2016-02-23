@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/mint2g/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/mint2g/proprietary/bin/modemd:system/bin/modemd \
-    vendor/samsung/mint2g/proprietary/framework/webviewchromium.jar:system/framework/webviewchromium.jar \
-    vendor/samsung/mint2g/proprietary/lib/libwebviewchromium.so:system/lib/libwebviewchromium.so \
     vendor/samsung/mint2g/proprietary/bin/slog:system/bin/slog \
     vendor/samsung/mint2g/proprietary/bin/slogctl:system/bin/slogctl \
     vendor/samsung/mint2g/proprietary/bin/sprd_monitor:system/bin/sprd_monitor \
