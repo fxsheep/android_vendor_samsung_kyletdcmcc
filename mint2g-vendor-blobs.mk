@@ -134,6 +134,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
     vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
-    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey 
-
+    vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
+    vendor/samsung/mint2g/proprietary/lib/hw/audio_policy.sc8810.so:system/lib/hw/audio_policy.sc8810.so \
+    vendor/samsung/mint2g/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
+    vendor/samsung/mint2g/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so
 
