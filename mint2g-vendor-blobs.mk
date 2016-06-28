@@ -122,18 +122,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/etc/slog.conf:system/etc/slog.conf \
     vendor/samsung/mint2g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/mint2g/proprietary/lib/libnvaccessor.so:system/lib/libnvaccessor.so \
-    vendor/samsung/mint2g/proprietary/lib/hw/camera.sc8810.so:system/lib/hw/camera.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/mint2g/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
-    vendor/samsung/mint2g/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/mint2g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/mint2g/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/mint2g/proprietary/bin/bcm_dut:system/bin/bcm_dut \
-    vendor/samsung/mint2g/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/samsung/mint2g/proprietary/bin/brcm_poke_helper:system/bin/brcm_poke_helper \
-    vendor/samsung/mint2g/proprietary/bin/btld:system/bin/btld \
-    vendor/samsung/mint2g/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/samsung/mint2g/proprietary/bin/playlpm:system/bin/playlpm \
     vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey
     
