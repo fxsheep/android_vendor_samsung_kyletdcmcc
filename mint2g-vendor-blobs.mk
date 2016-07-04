@@ -22,10 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
     vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
     vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddress \
-    vendor/samsung/mint2g/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
-    vendor/samsung/mint2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
     vendor/samsung/mint2g/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/mint2g/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/mint2g/proprietary/bin/modemd:system/bin/modemd \
@@ -44,9 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/mint2g/proprietary/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/samsung/mint2g/proprietary/bin/calibration_init:system/bin/calibration_init \
-    vendor/samsung/mint2g/proprietary/lib/hw/audio.primary.sc8810.so:system/lib/hw/audio.primary.sc8810.so \
-    vendor/samsung/mint2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
-    vendor/samsung/mint2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/mint2g/proprietary/lib/libvolumemanager.so:system/lib/libvolumemanger.so \
     vendor/samsung/mint2g/proprietary/lib/libxlist.so:system/lib/libxlist.so \
     vendor/samsung/mint2g/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
