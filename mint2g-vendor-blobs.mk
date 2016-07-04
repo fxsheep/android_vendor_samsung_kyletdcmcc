@@ -21,14 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/engmodemclient:system/bin/engmodemclient \
     vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
     vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
-    vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddress \
+    vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddr \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/mint2g/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/mint2g/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/mint2g/proprietary/bin/modemd:system/bin/modemd \
-    vendor/samsung/mint2g/proprietary/bin/slog:system/bin/slog \
-    vendor/samsung/mint2g/proprietary/bin/slogctl:system/bin/slogctl \
     vendor/samsung/mint2g/proprietary/bin/sprd_monitor:system/bin/sprd_monitor \
     vendor/samsung/mint2g/proprietary/bin/rild_sp:system/bin/rild_sp \
     vendor/samsung/mint2g/proprietary/lib/libril.so:system/lib/libril.so \
@@ -42,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/mint2g/proprietary/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/samsung/mint2g/proprietary/bin/calibration_init:system/bin/calibration_init \
-    vendor/samsung/mint2g/proprietary/lib/libvolumemanager.so:system/lib/libvolumemanger.so \
-    vendor/samsung/mint2g/proprietary/lib/libxlist.so:system/lib/libxlist.so \
     vendor/samsung/mint2g/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/mint2g/proprietary/etc/devicevolume.xml:system/etc/devicevolume.xml \
     vendor/samsung/mint2g/proprietary/etc/formatvolume.xml:system/etc/formatvolume.xml \
