@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/hw/audio_policy.sc8810.so:system/lib/hw/audio_policy.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/samsung/mint2g/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so \
-	vendor/samsung/mint2g/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/samsung/mint2g/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/samsung/mint2g/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant 
     
     
