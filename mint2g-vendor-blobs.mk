@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddr \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
+    vendor/samsung/mint2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
     vendor/samsung/mint2g/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/mint2g/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/mint2g/proprietary/bin/modemd:system/bin/modemd \
@@ -69,6 +70,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/etc/audio_VR/Tx_ControlParams_VR_SPEAKER_WIDEBAND.txt:system/etc/audio_VR/Tx_ControlParams_VR_SPEAKER_WIDEBAND.txt \
     vendor/samsung/mint2g/proprietary/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt \
     vendor/samsung/mint2g/proprietary/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt \
+    vendor/samsung/mint2g/proprietary/lib/hw/audio.primary.sc8810.so:system/lib/hw/audio.primary.sc8810.so \
+    vendor/samsung/mint2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
+    vendor/samsung/mint2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/samsung/mint2g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/mint2g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/mint2g/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
