@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/mint2g/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/samsung/mint2g/proprietary/lib/libMali.so:system/lib/libMali.so \
-    vendor/samsung/mint2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint2g/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/mint2g/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
     vendor/samsung/mint2g/proprietary/lib/libLifevibes_lvvefs.so:system/lib/libLifevibes_lvvefs.so \
