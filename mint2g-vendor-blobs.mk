@@ -106,11 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/mint2g/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     vendor/samsung/mint2g/proprietary/etc/pvplayer.cfg:system/etc/pvplayer.cfg \
-    vendor/samsung/mint2g/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
-    vendor/samsung/mint2g/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
-    vendor/samsung/mint2g/proprietary/lib/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \
-    vendor/samsung/mint2g/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
-    vendor/samsung/mint2g/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
@@ -137,6 +132,36 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/lpmkey:system/bin/lpmkey \
     vendor/samsung/mint2g/proprietary/lib/hw/audio_policy.sc8810.so:system/lib/hw/audio_policy.sc8810.so \
     vendor/samsung/mint2g/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-    vendor/samsung/mint2g/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so 
+    vendor/samsung/mint2g/proprietary/lib/libmemoryheapion.so:system/lib/libmemoryheapion.so\
+    vendor/samsung/mint2g/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+    vendor/samsung/mint2g/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
+    vendor/samsung/mint2g/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
+    vendor/samsung/mint2g/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg 
     
-    
+#    vendor/samsung/mint2g/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
+#    vendor/samsung/mint2g/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
+#    vendor/samsung/mint2g/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
+#    vendor/samsung/mint2g/proprietary/lib/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \
+#    vendor/samsung/mint2g/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
+
+
