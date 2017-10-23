@@ -1,10 +1,10 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2017, The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,10 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/bin/bcm4330.hcd:system/bin/bcm4330.hcd \
     vendor/samsung/mint2g/proprietary/bin/calibration_init:system/bin/calibration_init \
     vendor/samsung/mint2g/proprietary/bin/cpu:system/bin/cpu \
-    vendor/samsung/mint2g/proprietary/bin/engmodemclient:system/bin/engmodemclient \
-    vendor/samsung/mint2g/proprietary/bin/engpcclient:system/bin/engpcclient \
-    vendor/samsung/mint2g/proprietary/bin/engservice:system/bin/engservice \
-    vendor/samsung/mint2g/proprietary/bin/engsetmacaddr:system/bin/engsetmacaddr \
     vendor/samsung/mint2g/proprietary/bin/ext_data.sh:system/bin/ext_data.sh \
     vendor/samsung/mint2g/proprietary/bin/ext_kill.sh:system/bin/ext_kill.sh \
     vendor/samsung/mint2g/proprietary/bin/ext_symlink.sh:system/bin/ext_symlink.sh \
@@ -83,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/mint2g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/mint2g/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-    vendor/samsung/mint2g/proprietary/lib/libengclient.so:system/lib/libengclient.so \
     vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/mint2g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/mint2g/proprietary/lib/libLifevibes_lvvefs.so:system/lib/libLifevibes_lvvefs.so \
@@ -107,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
+    vendor/samsung/mint2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/mint2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
