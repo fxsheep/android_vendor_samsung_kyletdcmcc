@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/mint2g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/mint2g/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-    vendor/samsung/mint2g/proprietary/lib/libeng_wifi_ptest.so:system/lib/libeng_wifi_ptest.so \
     vendor/samsung/mint2g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/mint2g/proprietary/lib/libLifevibes_lvvefs.so:system/lib/libLifevibes_lvvefs.so \
     vendor/samsung/mint2g/proprietary/lib/liblvvewrapper.so:system/lib/liblvvewrapper.so \
