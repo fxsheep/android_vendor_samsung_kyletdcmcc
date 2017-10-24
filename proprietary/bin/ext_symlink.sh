@@ -6,9 +6,8 @@ if [ "$1" = "-p" ]; then
 	timeout=25
 	while [ "$timeout" -ge 0 ] ; do 
 		link=`getprop sys.symlink.pty`
-		if [ -f ${link##${term}} ]; then
-			rm ${link##${term}}
-			ln -s $link;
+		if [ ! -z ${link##${term}} ]; then
+			ln -sf $link;
 		    setprop sys.symlink.notify 0
 		  break;
 		fi
