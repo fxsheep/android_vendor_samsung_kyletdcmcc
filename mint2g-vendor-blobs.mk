@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
-    vendor/samsung/mint2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/mint2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
